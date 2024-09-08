@@ -1,0 +1,430 @@
+{"intents": [
+
+
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up?",
+                "Greetings!"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?",
+                "Hello! How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Catch you later",
+                "Take care"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Goodbye! Have a great day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "Much appreciated"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're welcome!"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?",
+                "What products are available?",
+                "Can you show me your products?"
+            ],
+            "responses": [
+                "We sell coffee, tea, and pastries",
+                "We have a variety of coffee, tea, and baked goods",
+                "Our menu includes coffee, tea, and delicious pastries"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?",
+                "What payment methods do you accept?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard, and Paypal",
+                "We accept most major credit cards, and Paypal",
+                "You can pay with credit cards or Paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?",
+                "What are the delivery times?",
+                "How fast is shipping?"
+            ],
+            "responses": [
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days",
+                "Your order will arrive in 2-4 days"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?",
+                "Make me laugh"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison.",
+                "Why don\u00e2\u20ac\u2122t skeletons fight each other? They don\u00e2\u20ac\u2122t have the guts."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are your opening hours?",
+                "When are you open?",
+                "What time do you open?",
+                "What time do you close?"
+            ],
+            "responses": [
+                "We are open from 8 AM to 8 PM, Monday to Friday.",
+                "Our hours are 8 AM - 8 PM, Monday to Friday."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where are you located?",
+                "What's your address?",
+                "How do I get to your store?",
+                "Where can I find you?"
+            ],
+            "responses": [
+                "We are located at 123 Coffee St., Espresso City.",
+                "Our address is 123 Coffee St., Espresso City.",
+                "You can find us at 123 Coffee St., Espresso City."
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "What's the status of my order?",
+                "How can I track my order?",
+                "Is my order on its way?"
+            ],
+            "responses": [
+                "You can track your order using the link we sent to your email.",
+                "Please check your email for the order tracking link.",
+                "Your order is on its way! Check your email for the tracking link."
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "How much is a coffee?",
+                "What are your prices?",
+                "How much does it cost?",
+                "What's the price of a latte?"
+            ],
+            "responses": [
+                "Our coffee prices range from $2 to $5 depending on the size and type.",
+                "A latte costs $4.50.",
+                "Our pricing starts at $2 for a basic coffee."
+            ]
+        },
+        {
+            "tag": "small_talk",
+            "patterns": [
+                "How's the weather?",
+                "What's new?",
+                "Tell me something interesting",
+                "What's going on?",
+                "What's up?"
+            ],
+            "responses": [
+                "I'm just a bot, but I hear it's a nice day!",
+                "Not much, just here to help you out!",
+                "Did you know coffee is the second most traded commodity in the world?",
+                "I'm here, ready to assist you!"
+            ]
+        },
+  {
+    "tag": "name",
+    "patterns": [
+      "What is your name?",
+      "Who are you?",
+      "Tell me your name",
+      "May I know your name?"
+    ],
+    "responses": [
+      "I'm your friendly neighborhood chatbot!",
+      "You can call me ChatBot.",
+      "I'm here to help you, whatever name you prefer!"
+    ]
+  },
+
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+        {"tag": "adverse_drug",
+         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
+         "responses": ["Navigating to Adverse drug reaction module"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure",
+         "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
+         "responses": ["Navigating to Blood Pressure module"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure_search",
+         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
+         "responses": ["Please provide Patient ID", "Patient ID?"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+  {
+    "tag": "google",
+    "patterns": [
+      "google",
+      "search",
+      "internet"
+    ],
+    "responses": [
+      "Redirecting to Google... "
+    ]
+  },
+            {
+            "tag": "Animal",
+            "patterns": [
+                "Dog"
+            ],
+            "responses": [
+                "A dog is a loyal, domesticated mammal, known for its companionship, varied breeds, intelligence, and roles in human life."
+            ]
+        },
+        {
+            "tag": "Animal",
+            "patterns": [
+                "Cat"
+            ],
+            "responses": [
+                "A cat is a graceful, independent mammal, known for its agility, playful nature, and role as a beloved companion."
+            ]
+        },
+        {
+            "tag": "Container",
+            "patterns": [
+                "Bottle"
+            ],
+            "responses": [
+                "A bottle is a container with a neck and cap, used to store liquids like water, beverages, or chemicals."
+
+
+
+
+
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Sofa"
+            ],
+            "responses": [
+                "A sofa is a comfortable, upholstered seating furniture for multiple people, often featuring cushions and arms, used in living rooms."
+            ]
+        },
+        {
+            "tag": "Fruits",
+            "patterns": [
+                "Apple"
+            ],
+            "responses": [
+                "An apple is a round, edible fruit with a crisp texture, sweet or tart flavor, and often red, green, or yellow."
+            ]
+        },
+        {
+            "tag": "Fruits",
+            "patterns": [
+                "Guava"
+            ],
+            "responses": [
+                "Guava is a tropical fruit with green or yellow skin, pink or white flesh, and a sweet, tangy flavor."
+            ]
+        },
+        {
+            "tag": "Fruits",
+            "patterns": [
+                "Banana"
+            ],
+            "responses": [
+                "A banana is a long, curved fruit with yellow skin, soft sweet flesh, and a rich source of potassium."
+            ]
+            },
+        {
+            "tag": "Places",
+            "patterns": [
+                "Beach"
+            ],
+            "responses": [
+                "A beach is a sandy or pebbly shore by the sea, ideal for sunbathing, swimming, and relaxation."
+
+
+
+
+
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                "Mountains"
+            ],
+            "responses": [
+                "A mountain is a large, elevated landform with steep slopes, often covered in snow or vegetation, ideal for hiking."
+            ]
+        },
+        {
+            "tag": "Desert",
+            "patterns": [
+                "Desert"
+            ],
+            "responses": [
+                "A desert is a dry, arid region with minimal rainfall, characterized by sandy or rocky landscapes, and extreme temperatures."
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                "School"
+            ],
+            "responses": [
+                "A school is an institution for education, where students learn various subjects, develop skills, and engage in social activities."
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                "College"
+            ],
+            "responses": [
+                "A college is an institution of higher education, offering undergraduate and graduate programs, and providing students"
+            ]
+
+
+
+
+
+        },
+        {
+            "tag": "People",
+            "patterns": [
+                " Soldiers "
+            ],
+            "responses": [
+
+           " Soldiers are trained military personnel who defend their country, follow orders, and perform various duties in combat and peacekeeping roles."
+
+            ]
+
+
+        }
+    ],
+    "questions": [
+        {
+            "question": "hi",
+            "response": "hello sir.."
+        },
+        {
+            "question": "quit",
+            "response": "thanku sir.."
+
+        },
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": [],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+        {"tag": "pharmacy_search",
+         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        }
+   ]
+}
